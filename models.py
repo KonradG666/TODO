@@ -26,3 +26,5 @@ class Todos:
         data.pop('csrf_token')
         self.todos[id] = data
         self.save_all()
+
+todos = Todos()
